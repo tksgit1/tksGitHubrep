@@ -2,6 +2,17 @@
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+import os
+from dotenv import load_dotenv
+
+# Load variables from the .env file
+load_dotenv()
+
+# Access them securely using os.environ
+database_password = os.environ.get("Test@135mac")
+api_key = os.environ.get("128476_mask_secret_tokenmac")
+
+print(f"Successfully loaded database password safely!")
 
 
 def print_hi(name):

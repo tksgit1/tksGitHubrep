@@ -25,4 +25,8 @@ wheels/
 
 # Environment variables / secrets
 .env
+tksSSH
+tksSSH.pub
+API_SECRET_KEY=128476_mask_secret_tokenmac
+.env
 
